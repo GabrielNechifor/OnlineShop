@@ -16,7 +16,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.List;
 
@@ -120,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openSensorsActivity(){
-        Intent intent = new Intent(this, Sensors.class);
+        Intent intent = new Intent(this, SensorsActivity.class);
         startActivity(intent);
     }
 

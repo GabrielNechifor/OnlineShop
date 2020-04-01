@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".LocationActivity"></activity>
-        <activity android:name=".Sensors" />
+        <activity android:name=".SensorsActivity" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
