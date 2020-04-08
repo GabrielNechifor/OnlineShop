@@ -89,6 +89,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.location_layout:
                 openLocationActivity();
                 return true;
+            case R.id.camera_layout:
+                openCameraActivity();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -125,6 +128,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openLocationActivity(){
         Intent intent = new Intent(this, LocationActivity.class);
+        startActivity(intent);
+    }
+
+    public void openCameraActivity(){
+        Intent intent = new Intent(this, CameraActivity.class);
         startActivity(intent);
     }
 /*
